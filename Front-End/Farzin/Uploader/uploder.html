@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form action="./files/" method="POST" enctype="multipart/form-data" id="form"> 
+                <div class="form-group">
+                    <label for="fileuploads">File : </label>
+                    <input type="file" id="fileuploads" name="file" class="form-control-file">
+                </div>
+                <button class="btn-success">Submit</button>
+                </form>
+                <div class="mt-4 ">
+                    <div class="progress d-none">
+                        <div class="progress-bar" style="width: 50%">50%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const form = document.querySelector("#form")
+        const progress = document.querySelector(".progress")
+        const progressBar = document.querySelector(".progress-bar")
+        console.log(progress  , progressBar )
+        
+        form.addEventListener("submit" , function(event){
+            
+            event.preventDefault()
+            console.log("stopSubmit")
+
+            let file = this.querySelector(`#fileuploads`).files[0]
+            if(file) {
+                 progress.classList.remove("d-none")
+                 let formdata = new FormData()
+                 formdata.append("file" , file)
+                
+                 let ajax = new XMLHttpRequest()
+                 ajax.addEventListener("load" , function(){
+                    console.log('complete uploading')
+                })
+                 ajax.open('POST' , "./upload.php" )
+                 ajax.send(fa)
+            }ormdat
+        }) 
+    </script>
+</body>
+</html>
