@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v28.0.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./style-index.css">
+    <title>Project1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="part1">
+            <button id="button">شروع</button>
+            <input type="text" id="input" placeholder="زمان خود را به ثانیه وارد کنید">
+        </div>
+        <span id="errormassage"></span>
+        <div class="c100" style="display: none;">
+             <span>250</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+        <div class="part3">
+            <span class="loading" style="display: none;">  در حال اجرا . . .</span>
+            <span class="sucsses" style="display: none;">شمارنده با موفقیت به پایان رسید</span>
+            <button id="stopButton">ایست</button>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

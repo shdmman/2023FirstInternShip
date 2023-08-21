@@ -1,0 +1,65 @@
+html {
+    font-family: "Vazir";
+    direction: rtl;
+}
+
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+body {
+    margin: 50px 150px;
+}
+
+.list .list-item {
+    display: flex;
+    align-items: center;
+    flex-direction: wrap;
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: move;
+    border: 1px solid #a19f9f;
+}
+
+.list .list-item .list-item-head {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-left: 1px solid #a19f9f ; 
+    justify-content: center;
+}
+
+.list .list-item .list-item-head .list-id{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.list .list-item-content .item-title {
+    margin-right: 2rem;
+    font-weight: bold;
+} 
+
+.list .list-item-content p {
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.list  .list-item .list-contect  .item-title {
+ font-size: medium;
+}
+
+.list  .list-item .list-contect #list {
+    font-size: x-large;
+} 
+
+.dragElm {
+    opacity: .5;
+}
+
+.list-item.over {
+    border: 3px solid rgb(194, 194, 194);
+     
+}
+

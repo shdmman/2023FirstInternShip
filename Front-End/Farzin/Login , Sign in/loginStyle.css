@@ -1,0 +1,324 @@
+body{
+    font-family: 'cabin' , sans-serif;
+}
+
+.container{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.image-box{
+  flex: 1;
+  width: 50%;
+}
+
+.image-box img{
+  width: 100%;
+}
+
+#form{
+  width: 50%;
+  border-top: 1px dotted black;
+  border-left:1px dotted black;
+  border-bottom: 1px dotted black;
+}
+
+.form-box{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+.check a {
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(29, 59, 228);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    border: 2px solid black;;
+    font-size: 1.2rem;
+    padding:.4em;
+    margin-bottom: 1rem;
+}
+
+#radiocheck{
+    width: 20px;
+    height: 20px;
+    box-shadow: 3px 2px 5px #323232;
+    transition: all .3s;
+    border-radius:5px ;
+    border: 8px solid #323232;
+}
+
+
+button {
+    --primary-color: #645bff;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+  }
+  
+   .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+   .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  button:hover .arrow {
+    background: var(--secondary-color);
+  }
+
+  
+  
+  button:hover .arrow:before {
+    right: 0;
+  }
+
+  
+
+  .or{
+    opacity: .6;
+    margin: 1rem;
+    
+  }
+
+  .google-button {
+    max-width: 320px;
+    display: flex;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    gap: 0.75rem;
+    color: rgb(65, 63, 63);
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .6s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .google-button svg {
+    height: 24px;
+  }
+  
+  .google-button:hover {
+    transform: scale(1.02);
+  }
+
+  .github-button {
+    display: flex;
+    width: 261px;
+    height: 43px;
+    background-color: rgb(24, 23, 23);
+    color: #ffffff;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: .6s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .github-button svg {
+    height: 30px;
+  }
+  
+  .github-button:hover {
+    box-shadow: none;
+  }
+
+  .facebook-button {
+    display: flex;
+    width: 261px;
+    height: 43px;
+    background-color: #039be5;
+    background-image: linear-gradient(to top right, #0163E0,#18ACFE);
+    color: #ffffff;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: .6s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .facebook-button svg {
+    height: 30px;
+  }
+  
+  .facebook-button:hover {
+    box-shadow: none;
+  }
+
+  .linkedin-button {
+    display: flex;
+    width: 261px;
+    height: 43px;
+    background-color: #0A66C2;
+    color: #ffffff;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: .6s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .linkedin-button svg {
+    height: 30px;
+  }
+  
+  .linkedin-button:hover {
+    box-shadow: none;
+  } 
+
+  a.create-new  {
+    margin-top: 1.2rem;
+  }
+
+  
+  .sign-other-ways{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  @media screen and (max-width : 878px) {
+    .image-box{
+      display: none;
+    }
+
+    .container {
+      width: 100%;
+      text-align: center;
+    }
+
+    #form{
+      border-right: 1px dotted black ;
+    }
+  }
+
+  @media screen and (max-width : 671px) {
+      .container {
+         width: 100%;
+         align-items: center;
+         justify-content: center;
+      }
+
+      #form {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+      }
+  }
+
+  @media screen and (max-width : 461px) {
+    .container{
+      width: 100%;
+    }
+
+    #form{
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width : 879px) {
+    body{
+      overflow: hidden;
+    }
+  }
+
+
+
+
