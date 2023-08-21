@@ -1,0 +1,134 @@
+header {
+    width: 100%;
+    height: 202px;
+    display: flex;
+    flex-direction: row;
+}
+
+header>div {
+    font-family: sans;
+    font-size: 20px;
+    width: 50%;
+}
+
+.rightHeader {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-items: center;
+    border-bottom: #B5B5B5 solid 1px;
+}
+
+/* .دانلود{
+    background-color: #3532FF;
+}
+.امکانات{
+    background-color: wheat;
+}
+.آیکون{
+    background-color: chocolate;
+} */
+.leftHeader {
+    display: grid;
+    grid-template-columns: 30% 25%;
+    justify-items: center;
+    align-items: center;
+    border-bottom: #B5B5B5 solid 1px;
+    padding-left: 20px;
+}
+
+.register {
+    cursor: pointer;
+    text-decoration: none;
+    color: #3532FF;
+    border: #3532FF 1.9px solid;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.ورود {
+    color: #8B8B8B;
+}
+
+.آیکون {
+    display: flex;
+    justify-content: center;
+}
+
+.Lockify {
+    font-weight: ;
+    color: #3532FF;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.firstPage{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.picture1{
+    flex: 1;
+    background-image: url(Group\ 38.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 603px;
+    height: 526px;
+}
+
+.firstParagraph{
+    flex: 1;
+}
+.whatIsClockify{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #666666;
+}
+.sentence1{
+    direction: rtl;
+    /* text-align: end; */
+    padding-right: 50px;
+    padding-top: 90px;
+    font-size: 33px;
+    color:  #8B8B8B;
+}
+.secondPage{
+    padding-top: 100px;
+}
+.blueButton{
+    text-align: center;
+}
+.blueButton div{
+    padding-top: 20px;
+}
+.inBlueButton{
+    font-size: 33px;
+    color: white;
+    background-color: #3532FF;
+    border: none;
+    padding: 38px 28px;
+    border-radius: 20px;
+}
+.whatDoCan{
+    padding-top: 106px;
+    text-align: center;
+    direction: rtl;
+    font-weight: 600;
+    color: #666666;
+    font-size: 45px;
+}
+.pictures3{
+    margin: 0 auto;
+    margin-top: 55px;
+    background-image: url(3pictures.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 437px;
+    width: 1150px;
+}
+@font-face {
+    src: url('Sans\ a4fran3.ttf');
+    font-family: sans;
+}
