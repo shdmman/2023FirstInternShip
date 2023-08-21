@@ -1,0 +1,27 @@
+/* $ تعریف متغیر با */
+$rangeAbi: blue;
+
+/* استایل دهی به متغیر ها با چینش خودشان */
+header{
+    background-color: aqua;
+    div{
+        font-size: 20px;
+        color: yellow;
+        button{
+            border-radius: 15px;
+        }
+    }
+}
+
+/* @mixin */
+@mixin anyName {
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+}
+div{
+    @include anyName(); /* اعمال میشود برای تگ anyname استایل های */
+}
+
+/* کنیم import دیگر درست کنیم و آن را scss میتوانیم یک فایل */
+@import "./anyfile.scss";

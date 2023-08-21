@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="uptvTask.css">
+    <title>آپ تی وی | مرجع دانلود و تماشای آنلاین فیلم و سریال</title>
+    <link rel="shortcut icon" href="Icon-UpTV-Black.png" type="image/x-icon">
+    <link href="css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div>
+            <!-- search -->
+            <div class="search">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <input type="text" placeholder="کلمه مورد نظر ">
+            </div>
+            <!-- navbar -->
+            <div class="navbar">
+                <nav>
+                    <li>
+                        <a href="">فیلم خارجی
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path stroke="#bbc1c6" fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                        <!-- فیلم خارجی hover -->
+                        <nav class="filmKhareji">
+                        <li>
+                            <a href="">اکشن</a>
+                            <a href="">ترسناک</a>
+                            <a href="">کمدی</a>
+                            <a href="">هندی</a>
+                            <a href="">درام</a>
+                            <a href="">تخیلی</a>
+                            <a href="">رزمی</a>
+                            <a href="">هیجان انگیز</a>
+                            <a href="">تاریخی</a>
+                            <a href="">جنگی</a>
+                            <a href="">جمایی</a>
+                            <a href="">وسترن</a>
+                            <a href="">همه فیلم های خارجی
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                                  </svg>
+                            </a>
+                        </li>
+                        </nav>
+                    </li>
+                    <li>
+                        <a href="">فیلم ایرانی
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path stroke="#bbc1c6" fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                        <!-- فیلم ایرانی hover -->
+                        <nav class="filmIrani">
+                            <li>
+                                <a href="">کمدی</a>
+                                <a href="">خانوداگی</a>
+                                <a href="">دفاع مقدس</a>
+                                <a href="">ترسناک</a>
+                                <a href="">رزمی</a>
+                                <a href="">حادثه ای</a>
+                                <a href="">همه فیلم های خارجی
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                                      </svg>
+                                </a>
+                            </li>
+                        </nav>
+                    </li>
+                    <li>
+                        <a href="">سریال
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                            class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path stroke="#bbc1c6" fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                        </a>
+                        <!-- سریال hover -->
+                        <nav class="serial">
+                            <li>
+                                <a href="">سریال خارجی</a>
+                                <a href="">سریال ایرانی</a>
+                                <a href="">سریال کره ای</a>
+                            </li>
+                        </nav>
+                    </li>
+                    <li><a href="">انیمیشن</a></li>
+                    <li><a href="">دوبله فارسی</a></li>
+                    <li><a href="">انیمه</a></li>
+                    <li>
+                        <a href="">بهترین ها
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path stroke="#bbc1c6" fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                        <!-- سریال hover -->
+                        <nav class="serial">
+                            <li>
+                                <a href="">250 فیلم برتر IMDb</a>
+                                <a href="">کالکشن</a>
+                                <a href="">به زودی</a>
+                                <a href="">فیلم های Marvel</a>
+                                <a href="">فیلم های DC</a>
+                                <a href="">اسکار</a>
+                                <a href="">نوستالژی</a>
+                            </li>
+                        </nav>
+                    </li>
+                    <li>
+                        <a href="">سال
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path stroke="#bbc1c6" fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                        <!-- سال hover -->
+                        <nav class="serial">
+                            <li>
+                                <a href="">2023</a>
+                                <a href="">2022</a>
+                                <a href="">2021</a>
+                                <a href="">2020</a>
+                            </li>
+                        </nav>
+                    </li>
+                    <li><a href="">ارتباط با ما</a></li>
+                </nav>
+            </div>
+            <!-- uptvIcon -->
+            <div class="uptvIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95.427"
+                    height="36.002" viewBox="0 0 95.427 36.002">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="-0.136" y1="0.316" x2="0.976" y2="0.893"
+                            gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#ffb884"></stop>
+                            <stop offset="1" stop-color="#f1658f"></stop>
+                        </linearGradient>
+                        <linearGradient id="linear-gradient-2" x1="0.038" y1="0.429" x2="0.962" y2="0.524"
+                            gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#f57b8c"></stop>
+                            <stop offset="1" stop-color="#feb385"></stop>
+                        </linearGradient>
+                    </defs>
+                    <g id="Group_40" data-name="Group 40" transform="translate(-1498.573 -31)">
+                        <g id="Layer_201" data-name="Layer%201" transform="translate(1444 31)">
+                            <path id="Subtraction_7" data-name="Subtraction 7"
+                                d="M17413.811-1382h-21.475c-1.857,0-2.762-.891-2.762-2.723v-17.554c0-1.832.9-2.723,2.762-2.723h21.475c1.857,0,2.762.891,2.762,2.723v17.554C17416.572-1382.891,17415.668-1382,17413.811-1382Zm-19.088-20a2.3,2.3,0,0,0-1.615.5,1.989,1.989,0,0,0-.535,1.512v12.973a1.989,1.989,0,0,0,.535,1.512,2.3,2.3,0,0,0,1.615.5h16.7c1.428,0,2.15-.678,2.15-2.015v-12.973c0-1.337-.723-2.015-2.15-2.015Z"
+                                transform="translate(-17266.572 1414)" fill="url(#linear-gradient)"></path>
+                            <g id="Group_3" data-name="Group 3">
+                                <path id="Path_3" data-name="Path 3"
+                                    d="M129.833.37a1.217,1.217,0,0,1,1.689-.057l5.622,5.228a1.145,1.145,0,0,1,.023,1.648h0a1.217,1.217,0,0,1-1.689.057l-5.622-5.228A1.145,1.145,0,0,1,129.833.37Z"
+                                    fill="#f99289"></path>
+                            </g>
+                            <g id="Group_4" data-name="Group 4">
+                                <path id="Path_4" data-name="Path 4"
+                                    d="M143.167.37a1.217,1.217,0,0,0-1.689-.057l-5.622,5.228a1.145,1.145,0,0,0-.023,1.648h0a1.217,1.217,0,0,0,1.689.057l5.622-5.228A1.145,1.145,0,0,0,143.167.37Z"
+                                    fill="#f99389"></path>
+                            </g>
+                            <g id="Group_5" data-name="Group 5">
+                                <path id="Path_5" data-name="Path 5"
+                                    d="M128,35a1.067,1.067,0,0,1,1.123-1h14.754A1.067,1.067,0,0,1,145,35h0a1.067,1.067,0,0,1-1.123,1H129.123A1.067,1.067,0,0,1,128,35Z"
+                                    fill="url(#linear-gradient-2)"></path>
+                            </g>
+                        </g>
+                        <path id="Path_70" data-name="Path 70"
+                            d="M8.686,3.78H4.2a3.481,3.481,0,0,1-1.4-.286,3.708,3.708,0,0,1-1.155-.783A3.708,3.708,0,0,1,.859,1.556,3.481,3.481,0,0,1,.573.153V-3.933H2.482V.153a1.645,1.645,0,0,0,.506,1.222,1.67,1.67,0,0,0,1.212.5H8.686a1.172,1.172,0,0,0,.878-.353A1.2,1.2,0,0,0,9.908.649a1.229,1.229,0,0,0-.229-.725A1.033,1.033,0,0,0,9.125-.5L4.868-1.585V-3.379A3.536,3.536,0,0,1,5.1-4.649a3.369,3.369,0,0,1,.64-1.06,3.107,3.107,0,0,1,.993-.735A2.919,2.919,0,0,1,8-6.72l3.055.057V-4.83H8a1.242,1.242,0,0,0-.506.1,1.43,1.43,0,0,0-.41.267,1.374,1.374,0,0,0-.277.363.84.84,0,0,0-.1.391v.783q.725.134,1.384.286t1.5.363A2.914,2.914,0,0,1,11.206-1.2,2.972,2.972,0,0,1,11.817.649a3.1,3.1,0,0,1-1.9,2.892A3.124,3.124,0,0,1,8.686,3.78Zm6.033.725-.5-1.642.344-.115q.115-.038.22-.076T15,2.6a11.136,11.136,0,0,0,1.107-.41,4.577,4.577,0,0,0,.935-.525A2.537,2.537,0,0,0,17.7.85a1.861,1.861,0,0,0,.229-1.021H16.418a3.318,3.318,0,0,1-1.327-.267,3.346,3.346,0,0,1-1.079-.735,3.541,3.541,0,0,1-.725-1.088,3.318,3.318,0,0,1-.267-1.327,3.339,3.339,0,0,1,.267-1.317A3.511,3.511,0,0,1,14.013-6a3.476,3.476,0,0,1,1.079-.745,3.219,3.219,0,0,1,1.327-.277,3.219,3.219,0,0,1,1.327.277A3.6,3.6,0,0,1,18.833-6a3.458,3.458,0,0,1,.735,1.088,3.318,3.318,0,0,1,.267,1.327v3.05a5.249,5.249,0,0,1-.353,1.957,4.339,4.339,0,0,1-1.155,1.613,3.212,3.212,0,0,1-.64.43q-.353.181-.735.334t-.754.267q-.372.115-.7.21l-.21.067q-.1.029-.188.067Zm1.7-9.641a1.474,1.474,0,0,0-.592.124,1.408,1.408,0,0,0-.487.344,1.858,1.858,0,0,0-.325.5,1.408,1.408,0,0,0-.124.582A1.439,1.439,0,0,0,15.34-2.52a1.487,1.487,0,0,0,1.079.439h1.546V-3.589a1.408,1.408,0,0,0-.124-.582,1.747,1.747,0,0,0-.334-.5,1.538,1.538,0,0,0-.487-.344,1.453,1.453,0,0,0-.6-.12ZM30.355,4.353H24.016A3.04,3.04,0,0,1,22.8,4.1a3.057,3.057,0,0,1-.983-.668,3.121,3.121,0,0,1-.649-.993,3.145,3.145,0,0,1-.239-1.222A3.075,3.075,0,0,1,21.162.01a3.182,3.182,0,0,1,.659-.993,3.121,3.121,0,0,1,.983-.678,2.972,2.972,0,0,1,1.212-.248h8.3A1.23,1.23,0,0,0,33.18-2.3a1.228,1.228,0,0,0,.363-.888V-6.224h1.909v3.093A2.972,2.972,0,0,1,35.2-1.919a3.324,3.324,0,0,1-.668.993,3.121,3.121,0,0,1-.983.678A2.972,2.972,0,0,1,32.34,0H24.016a1.181,1.181,0,0,0-.869.353,1.181,1.181,0,0,0-.353.869,1.174,1.174,0,0,0,.363.859,1.174,1.174,0,0,0,.859.363h6.338ZM35.49-7.426H33.715V-9.24H35.49Zm-2.959,0H30.755V-9.24H32.53ZM50.114,0H44.2a3.944,3.944,0,0,1-1.546-.3,3.9,3.9,0,0,1-1.26-.84,3.9,3.9,0,0,1-.84-1.26,3.944,3.944,0,0,1-.305-1.546v-2.31H42.12v2.31a2.029,2.029,0,0,0,.162.8,1.95,1.95,0,0,0,.439.649,2.145,2.145,0,0,0,.659.43,2.077,2.077,0,0,0,.821.162h5.918a2.077,2.077,0,0,0,.821-.162,2.059,2.059,0,0,0,.659-.439,2.088,2.088,0,0,0,.439-.649,2.008,2.008,0,0,0,.162-.811V-6.262h1.871v2.31a3.944,3.944,0,0,1-.305,1.546,3.9,3.9,0,0,1-.84,1.26,3.9,3.9,0,0,1-1.26.84A3.944,3.944,0,0,1,50.114,0ZM46.467,5.155h1.756V6.949H46.467Zm-1.489-2.94h1.775V4.028H44.978Zm2.959,0h1.775V4.028H47.937ZM58.819,0H56.91V-10.5h1.909ZM55.574-10.748l-1.508-.573.1-.191a3.814,3.814,0,0,1,1.012-1.25,2.278,2.278,0,0,1,1.47-.506l3.379-.019v1.6H57.044a1.592,1.592,0,0,0-.888.21,1.9,1.9,0,0,0-.582.729Z"
+                            transform="translate(1498 54)" fill="#fff"></path>
+                    </g>
+                </svg>
+            </div>
+            <!-- menu bar w-1000 -->
+            <div class="menuBar"></div>
+        </div>
+    </header>
+    <!-- all movies section -->
+    <div class="allMovieSection">
+        <!-- movies section -->
+        <div>
+            <a class="moviePooster" id="Oppenheimer" style="color: white;">
+                <img src="Oppenheimer-2023-Header.jpg" alt="">
+                <div style="color: #999;height: 100%;">
+                    <span style="font-size: 13px;font-weight: bold;">10/8.8 IMDb</span>
+                    <span style="font-size: 13px;">88%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم اوپنهایمر</div>
+                    <div style="font-size: 13px;margin-bottom: 10px;">Oppenheimer 2023</div>
+                    <span style="border: 1px solid #ffc107;color: #ffc107;font-size: 12px;padding: 5px 10px;border-radius: 5px;">فیلم برتر</span>
+                </div>
+            </a>
+            <a class="moviePooster" id="Meg2TheTrench" style="color: white;">
+            <img src="Meg-2-The-Trench-2023-Header.jpg" alt="">
+                <div style="color: #999;height: 100%;">
+                    <span style="font-size: 13px;font-weight: bold;">10/5.6 IMDb</span>
+                    <span style="font-size: 13px;">77%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم مگ دو گودال</div>
+                    <div style="font-size: 13px;margin-bottom: 10px;">Meg 2: The Trench 2023</div>
+                    <span style="border: 1px solid #ffc107;color: #ffc107;font-size: 12px;padding: 5px 10px;border-radius: 5px;">فیلم برتر</span>
+                </div>
+            </a>
+            <a class="moviePooster" id="TheThreeMusketeersDArtagnan" style="color: white;">
+                <img src="The-Three-Musketeers-DArtagnan-2023-Header.jpg" alt="">
+                <div style="color: #999;height: 100%;">
+                    <span style="font-size: 13px;font-weight: bold;">10/7.0 IMDb</span>
+                    <span style="font-size: 13px;">82%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم سه تفنگدار دارتانیان</div>
+                    <div style="font-size: 13px;margin-bottom: 10px;">The Three Musketeers Dartagnan 2023</div>
+                    <span style="border: 1px solid #ffc107;color: #ffc107;font-size: 12px;padding: 5px 10px;border-radius: 5px;">فیلم برتر</span>
+                </div>
+            </a>
+            <a class="moviePooster" id="PedarGoradilioHeader" style="color: white;">
+                <img src="Pedar-Goradilio-Header.jpg" alt="">
+                <div>
+                    <span style="font-size: 13px;font-weight: bold;">10/6.3 IMDb</span>
+                    <span style="font-size: 13px;">78%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">سریال پدر گواردیولا</div>
+                    <div style="font-size: 13px;">قسمت 1</div>
+                </div>
+            </a>
+            
+            <a class="moviePooster" id="LittleBoneLodge" style="color: white;">
+                <img src="Little-Bone-Lodge-2023-Header.jpg" alt="">
+                <div style="color: #999;height: 100%;">
+                    <span style="font-size: 13px;font-weight: bold;">10/7.9 IMDb</span>
+                    <span style="font-size: 13px;">77%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم کلبه استخوانی کوچک</div>
+                    <div style="font-size: 13px;margin-bottom: 10px;">Little BoneLodge 2023</div>
+                    <span style="border: 1px solid #ffc107;color: #ffc107;font-size: 12px;padding: 5px 10px;border-radius: 5px;">فیلم برتر</span>
+                </div>
+            </a>
+            <a class="moviePooster" id="InsidiousTheRedDoor" style="color: white;">
+                <img src="Insidious-The-Red-Door-2023-Header.jpg" alt="">
+                <div style="color: #999;height: 100%;">
+                    <span style="font-size: 13px;font-weight: bold;">10/6.0 IMDb</span>
+                    <span style="font-size: 13px;">80%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم توطئه آمیز در قرمز</div>
+                    <div style="font-size: 13px;margin-bottom: 10px;">Insidious The Red Door 2023</div>
+                    <span style="border: 1px solid #ffc107;color: #ffc107;font-size: 12px;padding: 5px 10px;border-radius: 5px;">فیلم برتر</span>
+                </div>
+            </a>
+            <a class="moviePooster" id="mansion" style="color: white;">
+                <img src="mansion-1-Header-e1691659844842.jpg" alt="">
+                <div>
+                    <span style="font-size: 13px;font-weight: bold;">10/7.4 IMDb</span>
+                    <span style="font-size: 13px;">87%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم عمارت متروکه</div>
+                    <div style="font-size: 13px;">Haunted Mansion 2023</div>
+                </div>
+            </a>
+            <a class="moviePooster" id="HeartOfStone" style="color: white;">
+                <img src="Heart-of-Stone-2023-Header.jpg" alt="">
+                <div>
+                    <span style="font-size: 13px;font-weight: bold;">10/5.5 IMDb</span>
+                    <span style="font-size: 13px;">87%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم قلب سنگ</div>
+                    <div style="font-size: 13px;">Heart of Stone 2023</div>
+                </div>
+            </a>
+            <a class="moviePooster" id="Quicksand" style="color: white;">
+                <img src="Quicksand-2023-Header.jpg" alt="">
+                <div>
+                    <span style="font-size: 13px;font-weight: bold;">10/4.9 IMDb</span>
+                    <span style="font-size: 13px;">76%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم باتلاق شنی</div>
+                    <div style="font-size: 13px;">Quicksand 2023</div>
+                </div>
+            </a>
+            <a class="moviePooster" id="TheFlood" style="color: white;">
+                <img src="The-Flood-2023-Header.jpg" alt="">
+                <div style="color: #999;height: 100%;">
+                    <span style="font-size: 13px;font-weight: bold;">10/4.3 IMDb</span>
+                    <span style="font-size: 13px;">67%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم هجوم</div>
+                    <div style="font-size: 13px;margin-bottom: 10px;">The Flood 2023</div>
+                    <span style="border: 1px solid #ffc107;color: #ffc107;font-size: 12px;padding: 5px 10px;border-radius: 5px;">فیلم برتر</span>
+                </div>
+            </a>
+            <a class="moviePooster" id="EpicTailsHeader" style="color: white;">
+                <img src="Epic-Tails-2022-Header.jpg" alt="">
+                <div style="color: #999;height: 100%;">
+                    <span style="font-size: 13px;font-weight: bold;">10/5.9 IMDb</span>
+                    <span style="font-size: 13px;">85%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم دم حماسی</div>
+                    <div style="font-size: 13px;margin-bottom: 10px;">Epic Tails 2023</div>
+                    <span style="border: 1px solid #ffc107;color: #ffc107;font-size: 12px;padding: 5px 10px;border-radius: 5px;">فیلم برتر</span>
+                </div>
+            </a>
+            <a class="moviePooster" id="LadybugAndCatNoirAwakening" style="color: white;">
+                <img src="Ladybug-and-Cat-Noir-Awakening-2023-Header.jpg" alt="">
+                <div style="color: #999;height: 100%;">
+                    <span style="font-size: 13px;font-weight: bold;">10/6.1 IMDb</span>
+                    <span style="font-size: 13px;">85%</span>
+                    <svg style="margin-top: 5px;" width="13px" height="13px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#999" stroke="#999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>heart-like</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-102.000000, -882.000000)" fill="#999"> <path d="M126,882 C122.667,882 119.982,883.842 117.969,886.235 C116.013,883.76 113.333,882 110,882 C105.306,882 102,886.036 102,890.438 C102,892.799 102.967,894.499 104.026,896.097 L116.459,911.003 C117.854,912.312 118.118,912.312 119.513,911.003 L131.974,896.097 C133.22,894.499 134,892.799 134,890.438 C134,886.036 130.694,882 126,882" id="heart-like" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+                    </svg>
+                    <div style="margin-top: 5px;color: white;">فیلم دختر کفشدوزکی و پسر گربه ای</div>
+                    <div style="font-size: 13px;margin-bottom: 10px;">Ladybug And Cat Noir Awakening 2023</div>
+                    <span style="border: 1px solid #ffc107;color: #ffc107;font-size: 12px;padding: 5px 10px;border-radius: 5px;">فیلم برتر</span>
+                </div>
+            </a>
+        </div>
+        <!-- under movies section -->
+        <nav>
+            <!-- فیلم یا سریال -->
+            <button>فیلم یا سریال<i class="fas fa-angle-left" style="float: left;font-size: 20px;"></i></button>
+            <!-- ژانر -->
+            <button>ژانر<i class="fas fa-angle-left" style="float: left;font-size: 20px;"></i></button>
+            <!-- کشور -->
+            <button>کشور<i class="fas fa-angle-left" style="float: left;font-size: 20px;"></i></button>
+            <!-- دوبله و زیرنویس -->
+            <button>دوبله و زیرنویس<i class="fas fa-angle-left" style="float: left;font-size: 20px;"></i></button>
+            <!-- امتیاز -->
+            <button>امتیاز<i class="fas fa-angle-left" style="float: left;font-size: 20px;"></i></button>
+            <!-- جستجو -->
+            <button>جستجو</button>
+        </nav>
+    </div>
+    <!-- section2 -->
+    <div class="section2">
+        <!-- irani raygan -->
+        <div class="movieSliders">
+            <!-- title -->
+            <div>
+                <a href="">مشاهده همه</a>
+                <span>ایرانی رایگان</span>
+            </div>
+            <!-- sliders -->
+            <div class="slides">
+                <div>
+                    <img src="zir-saghf-dodi-min-214x300.jpg" alt="">
+                    <p>فیلم زیر سقف دودی</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.4</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="cheshm-o-gosh-baste-207x290.jpg" alt="">
+                    <p>فیلم چشم و گوش بسته</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>اکشن, کمدی</div>
+                        <div>5.6</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="salh-ha-s1-e15-final-min-214x300.jpg" alt="">
+                    <p>سریال سال های دور از خانه</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>کمدی,درام,خانوادگی</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Hashtag-Khale-Sooskeh-207x290.jpg" alt="">
+                    <p>سریال هشتگ خاله سوسکه</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>موزیکال</div>
+                        <div>4.9</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="katiosha-2-min-214x300.jpg" alt="">
+                    <p>فیلم خفه گی</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>جنایی,درام,ترسناک</div>
+                        <div>5.4</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Khafegi-207x290.jpg" alt="">
+                    <p>فیلم کاتیوشا</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2023 فیلم های -->
+        <div class="movieSliders">
+            <!-- title -->
+            <div>
+                <a href="">مشاهده همه</a>
+                <span>2023 فیلم های</span>
+            </div>
+            <!-- sliders -->
+            <div class="slides">
+                <div>
+                    <img src="The-Point-Men-2023-207x290.jpg" alt="">
+                    <p>فیلم مردان پیشگام<br>قسمت 1</p>
+                    <div class="goldBox">دوبله فارسی</div>
+                    <div class="slidesHover">
+                        <div>اکشن,درام,هیجان انگیز</div>
+                        <div>6</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Heart-of-Stone-2023-207x290.jpg" alt="">
+                    <p>فیلم قلب سنگ</p>
+                    <div class="goldBox">دوبله فارسی</div>
+                    <div class="slidesHover">
+                        <div>اکشن,جنایی,هیجان انگیزُ</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="CSI-Sanatan-2023-207x290.jpg" alt="">
+                    <p>فیلم ساناتان</p>
+                    <!-- <div class="goldBox">رایگان</div> -->
+                    <div class="slidesHover">
+                        <div>جنایی,هیجان انگیز</div>
+                        <div>4.8</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="The-Bigfoot-Trap-2023-no-207x290.jpg" alt="">
+                    <p>فیلم تله پا گنده</p>
+                    <!-- <div class="goldBox">رایگان</div> -->
+                    <div class="slidesHover">
+                        <div>ترسناک,هیجان انگیز</div>
+                        <div>4.6</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="The-Murderer-2023-207x290.jpg" alt="">
+                    <p>فیلم قاتل</p>
+                    <!-- <div class="goldBox">رایگان</div> -->
+                    <div class="slidesHover">
+                        <div>کمدی,جنایی,راز آلود</div>
+                        <div>6.1</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="The-House-of-No-Man-2023-207x290.jpg" alt="">
+                    <p>فیلم خانه هیچکس</p>
+                    <div class="goldBox">دوبله فارسی</div>
+                    <div class="slidesHover">
+                        <div>کمدی,درام</div>
+                        <div>6.2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- serial jadid -->
+        <div class="movieSliders">
+            <!-- title -->
+            <div>
+                <a href="">مشاهده همه</a>
+                <span>سریال ایرانی جدید</span>
+            </div>
+            <!-- sliders -->
+            <div class="slides">
+                <div>
+                    <img src="Mafia-Zodiak-s1-e2-207x290.jpg" alt="">
+                    <p>سریال شب های مافیا زودیاک</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="cheshm-o-gosh-baste-207x290.jpg" alt="">
+                    <p>فیلم چشم و گوش بسته</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="salh-ha-s1-e15-final-min-214x300.jpg" alt="">
+                    <p>سریال سال های دور از خانه</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Hashtag-Khale-Sooskeh-207x290.jpg" alt="">
+                    <p>سریال هشتگ خاله سوسکه</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="katiosha-2-min-214x300.jpg" alt="">
+                    <p>فیلم خفه گی</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Khafegi-207x290.jpg" alt="">
+                    <p>فیلم کاتیوشا</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- irani raygan -->
+        <div class="movieSliders">
+            <!-- title -->
+            <div>
+                <a href="">مشاهده همه</a>
+                <span>ایرانی رایگان</span>
+            </div>
+            <!-- sliders -->
+            <div class="slides">
+                <div>
+                    <img src="zir-saghf-dodi-min-214x300.jpg" alt="">
+                    <p>فیلم زیر سقف دودی</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="cheshm-o-gosh-baste-207x290.jpg" alt="">
+                    <p>فیلم چشم و گوش بسته</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="salh-ha-s1-e15-final-min-214x300.jpg" alt="">
+                    <p>سریال سال های دور از خانه</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Hashtag-Khale-Sooskeh-207x290.jpg" alt="">
+                    <p>سریال هشتگ خاله سوسکه</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="katiosha-2-min-214x300.jpg" alt="">
+                    <p>فیلم خفه گی</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Khafegi-207x290.jpg" alt="">
+                    <p>فیلم کاتیوشا</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- irani raygan -->
+        <div class="movieSliders">
+            <!-- title -->
+            <div>
+                <a href="">مشاهده همه</a>
+                <span>ایرانی رایگان</span>
+            </div>
+            <!-- sliders -->
+            <div class="slides">
+                <div>
+                    <img src="zir-saghf-dodi-min-214x300.jpg" alt="">
+                    <p>فیلم زیر سقف دودی</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="cheshm-o-gosh-baste-207x290.jpg" alt="">
+                    <p>فیلم چشم و گوش بسته</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="salh-ha-s1-e15-final-min-214x300.jpg" alt="">
+                    <p>سریال سال های دور از خانه</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Hashtag-Khale-Sooskeh-207x290.jpg" alt="">
+                    <p>سریال هشتگ خاله سوسکه</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="katiosha-2-min-214x300.jpg" alt="">
+                    <p>فیلم خفه گی</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Khafegi-207x290.jpg" alt="">
+                    <p>فیلم کاتیوشا</p>
+                    <div class="goldBox">رایگان</div>
+                    <div class="slidesHover">
+                        <div>درام</div>
+                        <div>5.5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

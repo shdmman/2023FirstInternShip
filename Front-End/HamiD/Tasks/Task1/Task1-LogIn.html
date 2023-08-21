@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="HamiD">
+    <link rel="stylesheet" href="Task1-SignUp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="./w3schools-logo-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="head" style="height: 80px;width: 100%; background-color: white;"></div>
+    <header class="up" style="">
+        <!-- w3shcool icon -->
+        <div class="left">
+            <img style="height: 100%;" src="./download.png" alt="">
+        </div>
+        <!-- cross icon -->
+        <div class="right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x"
+                viewBox="0 0 16 16">
+                <path style="color: gray;"
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+        </div>
+    </header>
+    <div class="container">
+        <div class="text-center m-auto" style="width: 470px;">
+            <form class="form row">
+                <div class="col-11 row mx-auto">
+                    <!-- log in -->
+                    <div class="col-12">
+                        <div style="font-size: 25px;font-weight: bold;margin-top: 30px;float: left;">Log in</div>
+                    </div>
+                    <!-- email input -->
+                    <div class="col-12" style="margin-top: 30px;">
+                        <div
+                            style="float: left;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                            Email</div>
+                        <div style="float: right;font-size: 13px;">Need an account?
+                            <a href="./Task1-SignUp.html" style="color: rgb(0, 167, 100);font-weight: bold;cursor: pointer;">Sign up</a>
+                        </div>
+                        <!-- input -->
+                        <div style="margin-top: 30px;">
+                            <input class="form-control"
+                                style="height: 50px; border: solid 1.4px rgb(235, 235, 235);border-radius: 5px;">
+                            </input>
+                        </div>
+                    </div>
+                    <!-- password input -->
+                    <div class="col-12" style="margin-top: 30px;">
+                        <div
+                            style="float: left;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                            Password</div>
+                        <div
+                            style="float: right;font-size: 14px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;cursor: pointer;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                <path
+                                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                            </svg>
+                            Show
+                        </div>
+                        <!-- input -->
+                        <div style="margin-top: 30px;">
+                            <input class="form-control" type="password"
+                                style="height: 50px; border: solid 1.4px rgb(235, 235, 235);border-radius: 5px;">
+                            </input>
+                        </div>
+                        <!-- button login -->
+                        <div style="margin-top: 33px;">
+                            <button class="form-control" id="loginbutton" style="">
+                                <div
+                                    style="color: aliceblue; font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 18px;">
+                                    Log in</div>
+                            </button>
+                        </div>
+                        <!-- or line -->
+                        <div class="parent" style="margin-top: 30px;">
+                            <div class="line"></div>
+                            <div class="or">OR</div>
+                            <div class="line"></div>
+                        </div>
+                        <!-- button facebook -->
+                        <div style="margin-top: 28px;">
+                            <button class="form-control" id="facebookbutton" style="">
+                                <div
+                                    style="color: rgb(252, 252, 252);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 18px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-facebook mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                    </svg>
+                                    <span style="margin-left: 5px;font-size: 17px;">Continue with Facebook</span>
+                                </div>
+                            </button>
+                        </div>
+                        <!-- button google -->
+                        <div style="margin-top: 10px;">
+                            <button class="form-control" id="googlebutton" style="">
+                                <div
+                                    style="color: rgb(40, 40, 40);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 18px;">
+                                    <svg class="mb-1" style="height: 23px;" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+                                        <defs>
+                                            <path id="a"
+                                                d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z" />
+                                        </defs>
+                                        <clipPath id="b">
+                                            <use xlink:href="#a" overflow="visible" />
+                                        </clipPath>
+                                        <path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" />
+                                        <path clip-path="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z" />
+                                        <path clip-path="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z" />
+                                        <path clip-path="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z" />
+                                    </svg>
+                                    <span style="margin-left: 3px;font-size: 17px;">Continue with Google</span>
+                                </div>
+                            </button>
+                        </div>
+                        <!-- github facebook -->
+                        <div style="margin-top: 10px;">
+                            <button class="form-control" id="githubbutton" style="">
+                                <div
+                                    style="color:rgb(40, 40, 40);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 18px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-github mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                    </svg>
+                                    <span style="margin-left: 5px;">Continue with github</span>
+                                </div>
+                            </button>
+                        </div>
+                        <!-- forgot password -->
+                        <div style="margin-top: 15px;margin-bottom: 40px;">
+                            <div class="forgotpassword"
+                                style="font-size: 13px;font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                                Forgot
+                                password?</div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <!-- last line -->
+    <div style="margin-top: 100px;margin-bottom: 20px;text-align: center;font-size: 12px;opacity: 0.6;">© 1999 - 2023
+        <span class="lastline">W3schools</span>. All rights reserved. <span class="lastline">Cookie policy</span>, <span
+            class="lastline">Privacy</span> and <span class="lastline">Terms</span>.
+    </div>
+
+    <!-- help -->
+    <div class="help" style="width: 100px;border-radius: 100px;cursor: pointer;">
+        <svg style="color: aliceblue;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+            class="bi bi-question-circle fs-2" viewBox="0 0 16 16">
+            <path style="color: rgb(255, 255, 255);"
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path
+                d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
+        </svg>
+        <span style="margin-left: 8px;color: aliceblue;font-weight: bold;"">Help</span>
+    </div>
+
+</body>
+
+</html>
